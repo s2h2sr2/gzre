@@ -14,7 +14,7 @@ st.set_page_config(page_title="Das Fundbüro", page_icon="🔍", layout="wide")
 # Modell laden (einmalig, gecacht)
 # ─────────────────────────────────────────
 MODEL_PATH = "model/dein_model.h5"
-KATEGORIEN = ["Hoodie", "Schuhe", "Hose", "Flasche"]
+KATEGORIEN = ["Hoodie", "Hose", "Flasche", "Schuhe"]
 IMG_SIZE = (224, 224)  # anpassen, falls dein Modell andere Größe erwartet
 
 @st.cache_resource
